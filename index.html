@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="path-to-your-tailwind-css.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400..900&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400..700&amp;display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config={
+        theme: {
+extend: {
+  colors:{
+    'custom-blue': '#0093E6',
+    
+    'custom-dark-blue':' #131724',
+    'custom-light-blue':' #0093E6',
+    'custom-white': '#FBFBFB',
+    'custom-light-grey':' #999999',
+    'custom-green':'#11B2A8',
+    'custom-gray':'#282C3F',
+    'list-gray':'#555770'
+    
+   
+    
+
+  
+  },
+  
+
+ 
+  fontFamily: {
+        'custom-font': ['Neue Haas Unica'],
+      },
+     
+
+
+ 
+},
+},
+    }
+</script>
+
+</head>
+<body>
+  <div class=" mx-auto " >
+    <header class="box">
+      <div class="bg-white font-[Neue Haas Unica] max-w-6xl mx-auto">
+        <div class="flex justify-between items-center text-base font-medium mt-5 mb-5 mx-9">
+          <div>
+            <div><img src="Images/logo.svg" alt=""></div>
+          </div>
+          <div class="hidden md:block">
+            <ul class="flex justify-evenly items-center gap-16">
+              <li>Find Workers</li>
+              <li>Find Jobs</li>
+              <li>About Us</li>
+              <li>Resources</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="hidden md:block">
+            <div class="flex items-center gap-7">
+              <div>Login</div>
+              <div><button class="p-4 border-2 border-black rounded-xl font-[950] -[2px]">Open an account</button></div>
+            </div>
+          </div>
+          <div class="md:hidden">
+            <img id="mobileNavbarIcon" class="h-8 w-8" src="images/navbar.svg" alt="">
+          </div>
+        </div>
+      </div>
+      
+    </header>
+    <main>
+      <section class="section" id="section1">
+        <div class="text-custom-gray max-w-6xl mx-auto">
+          <div class="flex flex-wrap md:flex-nowrap items-center justify-center mx-9 md:mx-0 mt-12 md:mt-0 ">
+            <div>
+              <div class="text-5xl leading-[52px] md:text-6xl font-black md:leading-[72px] text-left">
+                <p>Modern<br>Temp <span class="text-gradient">Labour</span> <span class="text-custom-green">Solutions</span></p>
+              </div>
+              <div class="flex justify-center md:justify-normal gap-5 mt-8 ">
+                <div><button class="pt-[18px] pb-[18px] pl-7 pr-7 bg-custom-gray text-center rounded-xl text-white font-[950]">Find Workers</button>
+                </div>
+                <div>
+                  <button class="pt-[18px] pb-[18px] pl-7 pr-7 bg-custom-green text-center rounded-xl  text-white font-[950]">Find a Job</button>
+                </div>
+              </div>
+              </div>
+            <div class="mt-20 mb-24 ">
+              <img class="" src="Images/group_mainpic.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="section" id="section2">
+        <div class="bg-[rgba(17,178,168,0.07)]  py-[100px]  border-red-500 ">
+          <div class="max-w-6xl mx-auto ">
+         <div class=" mx-9 mx:ml-0">
+          <div class="text-[44px] font-black leading-[72px] mb-12">
+            <p class="md:text-center"><span class="text-custom-green">How</span> on-demand staffing works</p>
+          </div>
+          <div class="flex justify-between flex-wrap ">
+            <div class="max-w-[263px]">
+              <div class="flex justify-start items-start  gap-10">
+                <div><img src="Images/IconDual.svg" alt=""></div>
+                <div class="animate-bounce1"><img src="Images/arrow.svg" alt=""></div>
+              </div>
+              <div class="mt-5">
+                <p class="text-sm font-medium">STEP 1</p>
+                <p class="text-2xl font-[950]">Quick SignUp</p>
+                <p>t</p>
+              </div>
+            </div>
+            <div class="max-w-[263px]">
+              <div class="flex justify-start items-start  gap-10">
+                <div><img src="Images/IconDual.svg" alt=""></div>
+                <div class="animate-bounce1"><img src="Images/arrow.svg" alt=""></div>
+              </div>
+              <div class="mt-5">
+                <p class="text-sm font-medium">STEP 2</p>
+                <p class="text-2xl font-[950]">Post Jobs 24/7</p>
+                <p>Use our mobile app or web platform from the office or on the go, any time of day</p>
+              </div>
+            </div>
+            <div class="max-w-[263px]">
+              <div class="flex justify-start items-start  gap-10">
+                <div><img src="Images/IconDual.svg" alt=""></div>
+                <div class="animate-bounce1"><img src="Images/arrow.svg" alt=""></div>
+              </div>
+              <div class="mt-5">
+                <p class="text-sm font-medium">STEP 3</p>
+                <p class="text-2xl font-[950]">View Matches</p>
+                <p>With thousands of ready-to-go workers you can watch your jobs being filled in real time</p>
+              </div>
+            </div>
+            <div class="max-w-[263px]">
+              <div class="flex justify-start items-start  gap-10">
+                <div class=""><img src="Images/IconDual.svg" alt=""></div>
+              </div>
+              <div class="mt-5">
+                <p class="text-sm font-medium">STEP 4</p>
+                <p class="text-2xl font-[950]">We Do The Rest!</p>
+                <p>We take care of payroll, deductions and insurance</p>
+              </div>
+            </div>
+          </div>
+         </div>
+            
+          </div>
+        </div>
+        
+      </section>
+
+      <section class="section" id="section3">
+        <div class="py-[100px]">
+          <div>
+              <div class="md:text-center mx-9 md:mx-0">
+                <p class="text-sm font-medium tracking-[2px]">WE ARE SERVING IN</p>
+                <p class="mt-5 text-[40px]/[52px] md:text-[44px]/[60px] font-black "><span class="text-custom-green">Industries</span> we are working with</p>
+              </div>
+          </div>
+          <div class="flex mx-auto flex-nowrap mt-12 max-w-6xl">
+            <div class="slider-container">
+              <div class="slider flex ml-auto flex-wrap md:flex-nowrap gap-8">
+                <div class="slide">
+                  <img src="Images/img1.svg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="Images/img2.svg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="Images/food.svg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="Images/img3.svg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="Images/img4.svg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="Images/img5.svg" alt="">
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="section" id="section4">
+        <div class="max-w-6xl mx-auto my-[100px] ">
+          <div class="flex flex-wrap-reverse md:flex-nowrap justify-between gap-[52px] md:gap-44 mx-9 mx:ml-0">
+            <div>
+              <img src="Images/list_chats.svg" alt="">
+            </div>
+            <div class=" ">
+              <div >
+                <div class="" >
+                  <p class="text-sm font-medium tracking-[2px]">FOR EMPLOYEE</p>
+                  <p class="mt-5 text-[40px]/[52px] md:text-[44px]/[60px] font-black"><span class="text-custom-green">Workforce</span> At Your Fingertips</p>
+                  <img class="mt-3"src="Images/list_vector.svg" alt="">
+                </div>
+              <div class="text-[#282C3F]">
+                <div class="flex items-center gap-6 mt-4 text-lg font-medium">
+                  <div><img src="Images/tick1.svg" alt=""></div>
+                  <div><p>Easy to use mobile & web platform</p></div>
+                </div>
+                <div class="flex mt-4  items-center gap-6 text-lg font-medium ">
+                  <div><img src="Images/tick1.svg" alt=""></div>
+                  <div><b>45,000+</b> workers</p></div>
+                </div>
+                <div class="flex mt-4 items-center gap-6 text-lg font-medium">
+                  <div><img src="Images/tick1.svg" alt=""></div>
+                  <div><p>Realtime <b>tracking</b></p></div>
+                </div>
+                <div class="flex mt-4 items-center gap-6 text-lg font-medium">
+                  <div><img src="Images/tick1.svg" alt=""></div>
+                  <div><p><b>95% </b>fulfillment rate</p></div>
+                </div>
+                <div class="flex mt-4 items-center gap-6 text-lg font-medium">
+                  <div><img src="Images/tick1.svg" alt=""></div>
+                  <div><p>Preferred worker list</p></div>
+                </div>
+              </div>
+              <div class="flex items-center gap-12 p-[18px] mt-8 ">
+                <div class=" flex items-center gap-12 py-[18px]  border-b-2 border-custom-green">
+                  <div class="text-lg font-medium cursor-pointer hover:text-custom-green "><b>Learn More</b></div>
+                  <div class="animate-bounce2 cursor-pointer "><img class="w-[22px]" src="Images/learnMoreArrow.svg" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="section5">
+        <div>
+          <div class="bg-[#F5F8FF] pt-20 pb-[90px]">
+            <div class="max-w-6xl mx-auto flex-col items-cente justify-center">
+              <div class="mx-auto flex items-center justify-center mb-10"><img src="Images/heart.svg" alt=""></div>
+              <div>
+                <div class=" text-center">
+                  <p class="text-sm font-medium tracking-[2px]">FOR EMPLOYEE</p>
+                  <p class="mt-5 text-[40px]/[52px] md:text-[44px]/[60px] font-black"><span class="text-custom-green">Workforce</span> At Your Fingertips</p>
+                </div>
+              </div>
+              <div>
+                <div class="max-w-5xl p-10 mx-auto flex justify-around items-center gap-4 rounded-xl bg-[rgba(255,255,255)] mt-12">
+                  <div>
+                    <div class="text-xl font-medium ">Excellent App! Best in Langley for temp labour! They provide 24/7 support, call them and get your labour right away. Also, they pay their labour same day! With Grizzly Force you will have efficient labour and better control!</div>
+                    <div class="text-[28px] font-[950] mt-12">Tony Hartzenberg</div>
+                    <div class="opacity-60 text-base mt-2">CEO, Sugarplum</div>
+                  </div>
+                  <div class=""><img src="Images/review_img1.svg" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-12 ">
+              <div>
+                <div class=" text-center">
+                  <p class="text-sm font-medium tracking-[2px]">FEATURED CUSTOMERS</p>
+                </div>
+              </div>
+              <div class="flex flex-wrap justify-evenly  mx-auto mt-12">
+                <div><img src="Images/image 6.svg" alt=""></div>
+                <div><img src="Images/Background 1.svg" alt=""></div>
+                <div><img src="Images/island.svg" alt=""></div>
+                <div><img src="Images/image 65.svg" alt=""></div>
+                <div><img src="Images/image 66.svg" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </section>
+
+      <section class="section" id="section6">
+        <div class="max-w-6xl mx-auto my-[100px]">
+          <div class="flex flex-wrap md:flex-nowrap justify-between gap-[52px] md:gap-44  mx-9 mx:ml-0">
+           
+            <div >
+              <div >
+                <div>
+                  <p class="text-sm font-medium tracking-[2px]">FOR JOB SEEKERS</p>
+                  <p class="mt-5 text-[40px]/[52px] md:text-[44px]/[60px] font-black">Connecting You With<span class="text-custom-green">Flexible Work</span></p>
+                  <img class="mt-3"src="Images/list_vector.svg" alt="">
+                </div>
+              <div class="text-[#282C3F] ">
+                <div class="flex items-center gap-6 mt-4 text-lg font-medium">
+                  <div><img src="Images/tick1.svg" alt=""></div>
+                  <div><p>Easy to use mobile & web platform</p></div>
+                </div>
+                <div class="flex mt-4  items-center gap-6 text-lg font-medium ">
+                  <div><img src="Images/tick1.svg" alt=""></div>
+                  <div><b>45,000+</b> workers</p></div>
+                </div>
+                <div class="flex mt-4 items-center gap-6 text-lg font-medium">
+                  <div><img src="Images/tick1.svg" alt=""></div>
+                  <div><p>Realtime <b>tracking</b></p></div>
+                </div>
+                <div class="flex mt-4 items-center gap-6 text-lg font-medium">
+                  <div><img src="Images/tick1.svg" alt=""></div>
+                  <div><p><b>95% </b>fulfillment rate</p></div>
+                </div>
+                <div class="flex mt-4 items-center gap-6 text-lg font-medium">
+                  <div><img src="Images/tick1.svg" alt=""></div>
+                  <div><p>Preferred worker list</p></div>
+                </div>
+              </div>
+              <div class="flex items-center gap-12 p-[18px] mt-8 ">
+                <div class=" flex items-center gap-12 py-[18px]  border-b-2 border-custom-green">
+                  <div class="text-lg font-medium cursor-pointer hover:text-custom-green "><b>Learn More</b></div>
+                  <div class="animate-bounce2 cursor-pointer "><img class="w-[22px]" src="Images/learnMoreArrow.svg" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <img src="Images/img_right.svg" alt="">
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section" id="section7">
+        <div class="max-w-6xl mx-auto ">
+          <div class="flex flex-wrap gap-8 md:gap-0 md:justify-between justify-center mx-9 md:mx-0 ">
+            <div>
+              <div class="">
+                <p class="text-sm font-medium tracking-[2px]">GRIZZLY FORCE CITIES</p>
+                <p class="mt-5 text-[40px]/[52px] md:text-[44px]/[60px] font-black">Serving<span class="text-custom-green"> The Greater<br> Vancouver, Victoria,<br> Okanagan, Calgary</span>  & <br><span>Toronto</span> Areas</p>
+              </div>
+            </div>
+            <div class="">
+              <img src="Images/map-image.svg" alt="">
+            </div>
+          </div>
+          <div class="flex flex-wrap md:flex-nowrap justify-between gap-[30px] mt-8 md:mt-[151px] pb-[51px] md:pb-0 mx-9 md:mx-0">
+            <div class="bg-black py-10 px-10 pr-[52px] w-full rounded-3xl">
+              <div class="font-[950]">
+                <div class="text-xl md:text-[32px]  text-white">Looking for additional help?</div>
+                <div class="flex items-center gap-3">
+                  <div class="text-xs md:text-base text-custom-green"><p>Find Workers</p></div>
+                  <div><img src="Images/uparrowgreen.svg" alt=""></div>
+                </div>
+  
+              </div>
+            </div>
+            <div class="bg-custom-green py-10 px-10 w-full md:text-right rounded-3xl">
+              <div class="font-[950] md:text-right">
+                <div class="text-xl md:text-[32px] text-white">Looking for extra cash?</div>
+                <div class="flex items-center md:justify-end gap-3">
+                  <div class=" text-xs md:text-base text-white"><p>Find a Job</p></div>
+                  <div><img src="Images/uparrowwhite.svg" alt=""></div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </section>
+    </main>
+
+
+
+    <footer class="box">
+      <div class="mx-auto flex-col items-center justify-center max-w-6xl bg-[#212A34] md:bg-inherit md:pt-20 pt-[51px]">
+    
+        <div class="flex-col  items-center justify-center mx-auto text-white md:text-inherit">
+          <p class="font-black text-[40px]/[52px] md:text-[44px]/[60px] text-center text-white md:text-inherit">Subscribe To Our <span class="text-custom-green">Newsletter</span></p>
+          <p class="text-base font-medium text-center mt-3">Keep up with Grizzly Force team!</p>
+          <div class="mx-auto  flex justify-center items-center mt-12 w-full" >
+            <form class=" mx-9" action="/your-server-endpoint" method="post">
+             
+              <input type="email" id="email" name="email" placeholder="Enter your email" required class=" pt-[18px] pb-[18px] pl-7 pr-7 w-[358px] rounded-xl border-custom-green">
+              <!-- The "required" attribute enforces that the email field cannot be left empty. -->
+            
+              <input type="submit" value="Submit" class=" pt-[18px] pb-[18px] pl-7 pr-7 mt-3 md:mt-0 bg-custom-green text-center rounded-xl  text-white font-[950]">
+            </form>
+            
+          </div>
+        </div>
+        <div class="hidden md:block">
+           <div class="flex justify-between  h-[300px] mt-24 ">
+          <div class="flex-col items-center mt-4">
+            <div class=""> <img src="Images/logo.svg" alt=""></div>
+            <div><p class="text-lg font-medium   w-96 mt-3">Grizzly is a private virtual network that has unique features and has high security.</p></div> 
+            <div class="mt-10">
+              <button><img src="Images/google.svg" alt=""></button>
+              <button><img src="Images/Badge.svg" alt=""></button>
+             
+            </div>
+          </div>
+          <div class="flex gap-20">
+              <div>
+                <ul class=" flex-col justify-evenly gap-12  text-list-gray font-medium">
+                  <li class="text-[#212A34]">Product</li>
+                  <li class="mt-6">Download</li>
+                  <li class="mt-4">Pricing</li>
+                  <li class="mt-4">Location</li>
+                  <li class="mt-4">Server</li>
+                  <li class="mt-4">Countries</li>
+                  <li class="mt-4">Blogs</li>
+                </ul>
+              </div>
+              <div>
+                <ul class=" flex-col justify-evenly gap-12  text-list-gray font-medium">
+                  <li class="text-[#212A34]">Engage</li>
+                  <li class="mt-6">Grizzling</li>
+                  <li class="mt-4">FAQ</li>
+                  <li class="mt-4">Tutorials</li>
+                  <li class="mt-4">About Us</li>
+                  <li class="mt-4">Privacy Policy</li>
+                  <li class="mt-4">Terms of Service</li>
+                </ul>
+              </div>
+              <div>
+                <ul class=" flex-col justify-evenly gap-12  text-list-gray font-medium">
+                  <li class="text-[#212A34]">Earn Money</li>
+                  <li class="mt-6">Affiliate</li>
+                  <li class="mt-4">Become Partner</li>
+                 
+                </ul>
+              </div>
+            </div>
+         
+        </div></div>
+       
+      </div>
+
+      <div class="flex flex-wrap justify-between max-w-6xl md:mx-auto pb-20 pt-20 bg-[#212A34] md:bg-inherit text-white md:text-inherit">
+          <div class=" mx-9 md:mx-0"><p class="text-[10px] md:text-lg">© 2022 Grizzly, Inc. All rights reserved</p></div>
+          <div class="flex mx-9 md:mx-0 mt-3 md:mt-0 gap-10 cursor-pointer">
+            <div class="cursor-pointer"><img src="Images/fb.svg" alt=""></div>
+            <div class="cursor-pointer"><img src="Images/logo-twitter.svg" alt=""></div>
+            <div class="cursor-pointer"><img src="Images/logo-instagram.svg" alt=""></div>
+            <div class="cursor-pointer"><img src="Images/logo-github.svg" alt=""></div>
+          </div>
+      
+      </div >
+    </footer>
+  </div>
+
+
+<script src="script.js"></script>
+  
+</body>
+</html>
+
+
+
+
+
+
